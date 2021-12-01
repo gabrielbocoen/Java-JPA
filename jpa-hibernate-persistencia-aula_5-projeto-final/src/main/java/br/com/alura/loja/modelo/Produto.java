@@ -22,7 +22,7 @@ public class Produto {
 	private BigDecimal preco;
 	private LocalDate dataCadastro = LocalDate.now();
 	
-	@ManyToOne
+	@ManyToOne //cardinalidade
 	private Categoria categoria;
 	
 	public Produto() {
